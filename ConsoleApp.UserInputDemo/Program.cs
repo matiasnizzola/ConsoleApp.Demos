@@ -1,4 +1,6 @@
-﻿// #1 DECLARE VARIABLES
+﻿//REVISAR POR QUÉ GITHUB SUBE LOS CAMBIOS COMO MATIAS TGX Y NO PERSONAL
+
+// #1 DECLARE VARIABLES
 
 // "string name;" --> Al declarar una variable sin asignarle valor se lo llama inicializar la variable
 // No obstante vamos a inicializarla de una forma más limpia, asignandole un valor vacío:
