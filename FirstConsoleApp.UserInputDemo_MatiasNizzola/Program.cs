@@ -1,5 +1,7 @@
 ﻿//REVISAR POR QUÉ GITHUB SUBE LOS CAMBIOS COMO MATIAS TGX Y NO PERSONAL (solved 20:23 14/02)
 
+//Just testing to upload from VSC
+
 // #1 DECLARE VARIABLES
 
 // "string name;" --> Al declarar una variable sin asignarle valor se lo llama inicializar la variable
