@@ -14,18 +14,18 @@ int retirementAge = 65; //Por ejemplo en España
 
 // NAME
 
-Console.WriteLine("Please enter your name"); // Escribe la línea "Por favor introduce tu nombre". Es lo que se le pide al usuario
+Console.WriteLine("Please enter your first name"); // Escribe la línea "Por favor introduce tu nombre". Es lo que se le pide al usuario
 
 firstName = Console.ReadLine(); //Permitirá en la consola (recordemos que esto es una aplicación de consola) lectura (escritura del lado del usuario) de la línea que se espera que rellene. En este caso el nombre = lo que el usuario introduzca
+
+Console.WriteLine("Please enter your last name");
+
 lastName = Console.ReadLine();
-
-
 
 // AGE
 
 Console.WriteLine("Please enter your age");
 age = Convert.ToInt32(Console.ReadLine()); // La función Console.ReadLine funciona para strings. Con una variable numérica como la edad tendremos que transformar el la función de manera que lea "Int" --> función Convert.(distintas opciones)
-
 
 
 // #3 PROCESS THE DATA
