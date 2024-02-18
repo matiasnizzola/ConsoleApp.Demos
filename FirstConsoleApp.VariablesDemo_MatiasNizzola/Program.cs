@@ -39,9 +39,6 @@ Console.WriteLine($"Me llaman {name}");
 //Cadena formateada (formatted string)
 Console.WriteLine("Me llaman {0}", name);
 
-
-
-
 //  INTEGERS
 
 int age = 54;
