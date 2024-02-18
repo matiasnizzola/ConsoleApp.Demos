@@ -59,5 +59,3 @@ Console.WriteLine($"Working years remaining: {workingYearsRemaining}");
 Console.WriteLine($"Salary: {salary}");
 Console.WriteLine($"Gender: {gender}");
 Console.WriteLine($"Is working: {working}");
-
-

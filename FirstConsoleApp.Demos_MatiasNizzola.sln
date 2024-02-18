@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.UserInputDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.VariablesDemo_MatiasNizzola", "FirstConsoleApp.VariablesDemo_MatiasNizzola\FirstConsoleApp.VariablesDemo_MatiasNizzola.csproj", "{DD03A8B4-890F-4A62-AD03-8CDC539AFC5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstConsoleApp.Errors_MatiasNizzola", "FirstConsoleApp.SyntaxErrors_MatiasNizzola\FirstConsoleApp.Errors_MatiasNizzola.csproj", "{1893C136-C887-46FA-B6A7-2E2ED6CF72BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstConsoleApp.LogicErrors_MatiasNizzola", "FirstConsoleApp.LogicErrors_MatiasNizzola\FirstConsoleApp.LogicErrors_MatiasNizzola.csproj", "{17B573E7-6581-42BC-B5FD-37B2E271455C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{DD03A8B4-890F-4A62-AD03-8CDC539AFC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD03A8B4-890F-4A62-AD03-8CDC539AFC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD03A8B4-890F-4A62-AD03-8CDC539AFC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1893C136-C887-46FA-B6A7-2E2ED6CF72BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1893C136-C887-46FA-B6A7-2E2ED6CF72BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1893C136-C887-46FA-B6A7-2E2ED6CF72BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1893C136-C887-46FA-B6A7-2E2ED6CF72BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B573E7-6581-42BC-B5FD-37B2E271455C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B573E7-6581-42BC-B5FD-37B2E271455C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B573E7-6581-42BC-B5FD-37B2E271455C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B573E7-6581-42BC-B5FD-37B2E271455C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
