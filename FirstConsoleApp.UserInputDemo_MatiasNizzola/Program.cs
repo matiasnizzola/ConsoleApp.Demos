@@ -1,4 +1,8 @@
-﻿// #1 DECLARE VARIABLES
+﻿//REVISAR POR QUÉ GITHUB SUBE LOS CAMBIOS COMO MATIAS TGX Y NO PERSONAL (solved 20:23 14/02)
+
+//Just testing to upload from VSC
+
+// #1 DECLARE VARIABLES
 
 // "string name;" --> Al declarar una variable sin asignarle valor se lo llama inicializar la variable
 // No obstante vamos a inicializarla de una forma más limpia, asignandole un valor vacío:
@@ -7,13 +11,6 @@ string firstName = string.Empty;
 string lastName = string.Empty;
 int age  = 0; //Hay que evitar que no tengan un valor por defecto
 int retirementAge = 65; //Por ejemplo en España
-
-//NEW VARIABLES 18/02/2024
-
-decimal salary = 0; // 0 es el valor defecto de decimal
-char gender = char.MinValue; // char.MinValue es el valor defecto de char
-bool working = false; // false es el valor defecto de boolean
-
 
 /**************************************************************************************************/
 
@@ -34,23 +31,6 @@ lastName = Console.ReadLine();
 Console.WriteLine("Please enter your age");
 age = Convert.ToInt32(Console.ReadLine()); // La función Console.ReadLine funciona para strings. Con una variable numérica como la edad tendremos que transformar el la función de manera que lea "Int" --> función Convert.(distintas opciones)
 
-// SALARY
-
-Console.WriteLine("How much do you earn? (salary)");
-
-salary = Convert.ToInt32(Console.ReadLine()); //Luego veremos como Convert.ToDecimal
-
-// GENDER
-
-Console.WriteLine("Please enter your gender (please type M or F)");
-
-gender = Convert.ToChar(Console.ReadLine());
-
-// EMPLOYMENT STATUS
-
-Console.WriteLine("Are you working right now? (please type true or false)");
-
-working = Convert.ToBoolean(Console.ReadLine());
 
 // #3 PROCESS THE DATA
 
@@ -58,16 +38,11 @@ working = Convert.ToBoolean(Console.ReadLine());
 
 int workingYearsRemaining = retirementAge - age;
 
-// #4 OUTPUT:
-
-Console.WriteLine('\n'+ "USER'S INPUT:");
+// Output the results to the user:
 
 Console.WriteLine($"Full name: {firstName} {lastName}");
 Console.WriteLine($"Age: {age}");
 Console.WriteLine($"Working years remaining: {workingYearsRemaining}");
-Console.WriteLine($"Salary: {salary}");
-Console.WriteLine($"Gender: {gender}");
-Console.WriteLine($"Is working?: {working}");
 
 
 
