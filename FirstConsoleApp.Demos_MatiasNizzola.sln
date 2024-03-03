@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.UserInputDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.VariablesDemo_MatiasNizzola", "FirstConsoleApp.VariablesDemo_MatiasNizzola\FirstConsoleApp.VariablesDemo_MatiasNizzola.csproj", "{DD03A8B4-890F-4A62-AD03-8CDC539AFC5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstConsoleApp.Errors_MatiasNizzola", "FirstConsoleApp.SyntaxErrors_MatiasNizzola\FirstConsoleApp.Errors_MatiasNizzola.csproj", "{1893C136-C887-46FA-B6A7-2E2ED6CF72BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.Errors_MatiasNizzola", "FirstConsoleApp.SyntaxErrors_MatiasNizzola\FirstConsoleApp.Errors_MatiasNizzola.csproj", "{1893C136-C887-46FA-B6A7-2E2ED6CF72BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstConsoleApp.LogicErrors_MatiasNizzola", "FirstConsoleApp.LogicErrors_MatiasNizzola\FirstConsoleApp.LogicErrors_MatiasNizzola.csproj", "{17B573E7-6581-42BC-B5FD-37B2E271455C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.LogicErrors_MatiasNizzola", "FirstConsoleApp.LogicErrors_MatiasNizzola\FirstConsoleApp.LogicErrors_MatiasNizzola.csproj", "{17B573E7-6581-42BC-B5FD-37B2E271455C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.Operators_MatiasNizzola", "FirstConsoleApp.ArithmeticOperators_MatiasNizzola\FirstConsoleApp.Operators_MatiasNizzola.csproj", "{EE4C24D8-99BB-43C2-B06F-E7BFDF54576D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{17B573E7-6581-42BC-B5FD-37B2E271455C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17B573E7-6581-42BC-B5FD-37B2E271455C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17B573E7-6581-42BC-B5FD-37B2E271455C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4C24D8-99BB-43C2-B06F-E7BFDF54576D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4C24D8-99BB-43C2-B06F-E7BFDF54576D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4C24D8-99BB-43C2-B06F-E7BFDF54576D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4C24D8-99BB-43C2-B06F-E7BFDF54576D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

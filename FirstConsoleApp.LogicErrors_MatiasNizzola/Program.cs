@@ -15,8 +15,11 @@ firstName = Console.ReadLine();
 Console.WriteLine("Please enter your last name");
 lastName = Console.ReadLine();
 
-Console.WriteLine("Please enter your age");
+// 18/02/2024 20:15 creamos un "Breakpoint":
+
+Console.WriteLine("Please enter your age: ");
 age = Convert.ToInt32(Console.ReadLine()); 
+
 
 Console.WriteLine("Please enter your salary");
 salary = Convert.ToInt32(Console.ReadLine()); //No hay errores de sintaxis por lo que nos corre la aplicación.
