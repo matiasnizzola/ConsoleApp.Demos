@@ -80,12 +80,12 @@ var isNotEqualTo = 23 != 45;
 
 Console.WriteLine('\n' + "**** LOGIC OPERATORS RESULTS ****" + '\n');
 
-Console.WriteLine($"isGreaterThan = + {isGreaterThan}");
-Console.WriteLine($"isLessThan = + {isLessThan}");
-Console.WriteLine($"isEquivalentTo = + {isEquivalentTo}");
-Console.WriteLine($"isGreaterThanOrEqualTo = + {isGreaterThanOrEqualTo}");
-Console.WriteLine($"isLessThanOrEqualTo = + {isLessThanOrEqualTo}");
-Console.WriteLine($"isNotEqualTo = + {isNotEqualTo}");
+Console.WriteLine($"isGreaterThan: {isGreaterThan}");
+Console.WriteLine($"isLessThan: {isLessThan}");
+Console.WriteLine($"isEquivalentTo: {isEquivalentTo}");
+Console.WriteLine($"isGreaterThanOrEqualTo: {isGreaterThanOrEqualTo}");
+Console.WriteLine($"isLessThanOrEqualTo: {isLessThanOrEqualTo}");
+Console.WriteLine($"isNotEqualTo: {isNotEqualTo}");
 
 
 
@@ -111,7 +111,9 @@ Examples:
         * Instead of using num1 = num1 + 2, we can use num 1 += 2 --> so that the particle += means you are adding whatever after the = sign to whatever value or variable before the + sign
  */
 
-//CHANGING A SAME VARIABLE VALUE WITH THE ASSIGNMENT OPERATORS:
+Console.WriteLine('\n' + "**** ASSIGNMENT OPERATORS RESULTS ****" + '\n');
+
+Console.WriteLine("CHANGING A SAME VARIABLE VALUE WITH THE ASSIGNMENT OPERATORS:" + '\n');
 
 num1 = 45; // I'm changing num1 whatever value the user has inserted before to 45
 Console.WriteLine($"num1 is NOW = {num1}");  //Should return 45 (reassignment to 45)
@@ -123,3 +125,12 @@ num1 *= 45;
 Console.WriteLine($"num1 * 45 is NOW = {num1}"); //Should return 2025 (45 * 45 = 2025)
 num1 /= 45;
 Console.WriteLine($"num1 / 45 is NOW = {num1}"); //Should return 45 (2025 / 45 = 45)
+
+//CREATING A NEW VARIABLE FROM AN EXISTING ONE WITH THE ASSIGNMENT OPERATORS:
+
+num2 = num1 + 2; // num2 = 45 + 2 --> 47
+num2 += 36;
+num2 -= 27;
+num2 *= 2;
+num2 /= 3;
+
