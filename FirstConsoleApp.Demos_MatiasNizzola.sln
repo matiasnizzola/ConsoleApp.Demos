@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.LogicErrors
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.Operators_MatiasNizzola", "FirstConsoleApp.ArithmeticOperators_MatiasNizzola\FirstConsoleApp.Operators_MatiasNizzola.csproj", "{EE4C24D8-99BB-43C2-B06F-E7BFDF54576D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstConsoleApp.ConditionsAndDecisions_MatiasNizzola", "FirstConsoleApp.ConditionsAndDecisions_MatiasNizzola\FirstConsoleApp.ConditionsAndDecisions_MatiasNizzola.csproj", "{28F2B02F-CEA8-4E7E-88F3-CDDEF4EAF25C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{EE4C24D8-99BB-43C2-B06F-E7BFDF54576D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE4C24D8-99BB-43C2-B06F-E7BFDF54576D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE4C24D8-99BB-43C2-B06F-E7BFDF54576D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F2B02F-CEA8-4E7E-88F3-CDDEF4EAF25C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F2B02F-CEA8-4E7E-88F3-CDDEF4EAF25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F2B02F-CEA8-4E7E-88F3-CDDEF4EAF25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F2B02F-CEA8-4E7E-88F3-CDDEF4EAF25C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
