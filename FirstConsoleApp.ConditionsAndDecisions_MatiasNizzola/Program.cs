@@ -130,3 +130,32 @@ switch (DayOfTheWeek)
 
 Console.WriteLine("\r\nTHANK YOU FOR USING!");
 
+/* SCOPE OF A VARIABLE
+ * All variables must be declared before using them
+ * Each {} is a block of code inside of which variables can be defined & declared but do not exist outside the block.
+ * Basically, they set the context where the variable is working
+ * 
+ * FOR EXAMPLE:
+ */
+
+// Global scope: a variable defined at file level (that's to say, outside of any structure). It can be used anywhere. For instance:
+
+int gradeOfStudent1 = 24;
+
+if (gradeOfStudent1 > 24)
+{
+    Console.WriteLine($"Your grade does not correspond{gradeOfStudent1}");
+}
+
+// Specific scope: The variable is declared and use in a particular context and when attempted to be used outside of it, an error is returned
+
+if (gradeOfStudent1 < 0)
+{
+    int gradeOfStudent2 = Convert.ToInt32(Console.ReadLine());
+}
+else
+{
+    Console.WriteLine($"Your grade does not correspond{gradeOfStudent2}");
+}
+
+Console.WriteLine($"Your grade does not correspond{gradeOfStudent2}");
