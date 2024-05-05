@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.Operators_M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.ConditionsAndDecisions_MatiasNizzola", "FirstConsoleApp.ConditionsAndDecisions_MatiasNizzola\FirstConsoleApp.ConditionsAndDecisions_MatiasNizzola.csproj", "{28F2B02F-CEA8-4E7E-88F3-CDDEF4EAF25C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstConsoleApp.SampleCalculator_MatiasNizzola", "FirstConsoleApp.SampleCalculator_MatiasNizzola\FirstConsoleApp.SampleCalculator_MatiasNizzola.csproj", "{8B88E4E0-99A5-4B68-8FD4-BE998267092C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.SampleCalculator_MatiasNizzola", "FirstConsoleApp.SampleCalculator_MatiasNizzola\FirstConsoleApp.SampleCalculator_MatiasNizzola.csproj", "{8B88E4E0-99A5-4B68-8FD4-BE998267092C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstConsoleApp.RepetitionStatements_MatiasNizzola", "FirstConsoleApp.RepetitionStatements_MatiasNizzola\FirstConsoleApp.RepetitionStatements_MatiasNizzola.csproj", "{3BB82FE7-9152-4815-96BE-9369BC476AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstConsoleApp.SampleCalculatorTest_MatiasNizzola", "FirstConsoleApp.SampleCalculatorTest_MatiasNizzola\FirstConsoleApp.SampleCalculatorTest_MatiasNizzola.csproj", "{527B002F-BC2C-4A04-9437-B266F4C262FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{8B88E4E0-99A5-4B68-8FD4-BE998267092C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B88E4E0-99A5-4B68-8FD4-BE998267092C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B88E4E0-99A5-4B68-8FD4-BE998267092C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB82FE7-9152-4815-96BE-9369BC476AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB82FE7-9152-4815-96BE-9369BC476AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB82FE7-9152-4815-96BE-9369BC476AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB82FE7-9152-4815-96BE-9369BC476AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527B002F-BC2C-4A04-9437-B266F4C262FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527B002F-BC2C-4A04-9437-B266F4C262FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527B002F-BC2C-4A04-9437-B266F4C262FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527B002F-BC2C-4A04-9437-B266F4C262FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,26 +1,4 @@
-﻿/* SCHEMA
-
-1. Welcome
-2. Input
-    1. Operation
-        1. Addition
-        2. Subtraction
-        3. Multiplication
-        4. Division
-        5. Fibonacci sequence
-    2. num1
-    3. num2
-3. Action
-4. Output
-5. Farewell
- */
-
-// Welcome message
-
-Console.WriteLine("********** - WELCOME TO MY FIRST CODED CONSOLE APP CALCULATOR IN C# - **********");
-Console.WriteLine("Please note this calc. works just for two numbers\r\n");
-
-// Variable Declarations
+﻿// Variable Declarations
 int choice = 0;
 int num1, num2 = 0;
 int answer = 0;
